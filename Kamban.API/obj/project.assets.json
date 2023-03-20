@@ -5985,11 +5985,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projetos\\Vue\\Keyworks\\Kamban\\Kamban.API\\Kamban.API.csproj",
+      "projectUniqueName": "E:\\Projetos\\Vue\\Keyworks\\Kamban.API\\Kamban.API\\Kamban.API.csproj",
       "projectName": "Kamban.API",
-      "projectPath": "E:\\Projetos\\Vue\\Keyworks\\Kamban\\Kamban.API\\Kamban.API.csproj",
+      "projectPath": "E:\\Projetos\\Vue\\Keyworks\\Kamban.API\\Kamban.API\\Kamban.API.csproj",
       "packagesPath": "C:\\Users\\Edutecni-Note\\.nuget\\packages\\",
-      "outputPath": "E:\\Projetos\\Vue\\Keyworks\\Kamban\\Kamban.API\\obj\\",
+      "outputPath": "E:\\Projetos\\Vue\\Keyworks\\Kamban.API\\Kamban.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

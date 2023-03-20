@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OQ9blmhAoike0ObJM2B8zR/Z6zeHWuIdBMO4z+9F3k5ZoJiUavNbyD0NDkjxnze7ccghjvLxw0i+ozounsqLVA==",
+  "dgSpecHash": "vBLR7yy/Byg/4GjFuSHT5BU6ihWyC2K3sIjrOR3pYl1cds9hD+YYPuU0dfPqkF7HXY9u46ty9LePD5DZvg2NbQ==",
   "success": true,
-  "projectFilePath": "E:\\Projetos\\Vue\\Keyworks\\Kamban\\Kamban.API\\Kamban.API.csproj",
+  "projectFilePath": "E:\\Projetos\\Vue\\Keyworks\\Kamban.API\\Kamban.API\\Kamban.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Edutecni-Note\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Edutecni-Note\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
