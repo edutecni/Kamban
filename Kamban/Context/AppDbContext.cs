@@ -1,11 +1,11 @@
-﻿using Kamban.Models;
+﻿using Kamban.API.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Kamban.Context
+namespace Kamban.API.Context
 {
     public class AppDbContext : DbContext
     {

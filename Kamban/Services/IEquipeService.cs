@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Kamban.Services
+namespace Kamban.API.Services
 {
     public interface IEquipeService
     {
