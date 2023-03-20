@@ -1,4 +1,5 @@
 using Kamban.API.Context;
+using Kamban.API.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -33,6 +34,8 @@ namespace Kamban.API
 
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped<IEquipeService, EquipesService>();
 
             services.AddSwaggerGen(c =>
             {

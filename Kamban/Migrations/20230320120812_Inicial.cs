@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Kamban.Migrations
+namespace Kamban.API.Migrations
 {
     public partial class Inicial : Migration
     {
@@ -19,6 +19,16 @@ namespace Kamban.Migrations
                 {
                     table.PrimaryKey("PK_Equipes", x => x.EquipeId);
                 });
+
+            migrationBuilder.InsertData(
+                table: "Equipes",
+                columns: new[] { "EquipeId", "Abreviacao", "EquipeNome" },
+                values: new object[] { 1, "PH", "Equipe Paulo Henrique" });
+
+            migrationBuilder.InsertData(
+                table: "Equipes",
+                columns: new[] { "EquipeId", "Abreviacao", "EquipeNome" },
+                values: new object[] { 2, "AS", "Equipe Antonio Silveira" });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

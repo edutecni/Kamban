@@ -58,3 +58,4 @@ E:\Projetos\Vue\Keyworks\Kamban\Kamban\obj\Debug\net5.0\Kamban.API.dll
 E:\Projetos\Vue\Keyworks\Kamban\Kamban\obj\Debug\net5.0\ref\Kamban.API.dll
 E:\Projetos\Vue\Keyworks\Kamban\Kamban\obj\Debug\net5.0\Kamban.API.pdb
 E:\Projetos\Vue\Keyworks\Kamban\Kamban\obj\Debug\net5.0\Kamban.API.genruntimeconfig.cache
+E:\Projetos\Vue\Keyworks\Kamban\Kamban\obj\Debug\net5.0\Kamban.API.csproj.AssemblyReference.cache

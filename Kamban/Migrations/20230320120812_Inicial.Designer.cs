@@ -6,10 +6,10 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace Kamban.Migrations
+namespace Kamban.API.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230320113900_Inicial")]
+    [Migration("20230320120812_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -20,7 +20,7 @@ namespace Kamban.Migrations
                 .HasAnnotation("ProductVersion", "5.0.8")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Kamban.Models.Equipe", b =>
+            modelBuilder.Entity("Kamban.API.Models.Equipe", b =>
                 {
                     b.Property<int>("EquipeId")
                         .ValueGeneratedOnAdd()
@@ -40,6 +40,20 @@ namespace Kamban.Migrations
                     b.HasKey("EquipeId");
 
                     b.ToTable("Equipes");
+
+                    b.HasData(
+                        new
+                        {
+                            EquipeId = 1,
+                            Abreviacao = "PH",
+                            EquipeNome = "Equipe Paulo Henrique"
+                        },
+                        new
+                        {
+                            EquipeId = 2,
+                            Abreviacao = "AS",
+                            EquipeNome = "Equipe Antonio Silveira"
+                        });
                 });
 #pragma warning restore 612, 618
         }
